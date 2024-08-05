@@ -76,7 +76,18 @@ body {
     font-size: 14px;
     font-weight: 700;
   }
-          
+  @import url("styles/header.css");
+  @import url("styles/banner.css");
+  @import url("styles/carrossel.css");
+  @import url("styles/topicos.css");
+  @import url("styles/contato.css");
+  @import url("styles/header.css");
+  @import url("styles/banner.css");
+  @import url("styles/carrossel.css");
+  @import url("styles/topicos.css");
+  @import url("styles/contato.css");
+  @import url("styles/rodapé.css");
+     
     
     
 
