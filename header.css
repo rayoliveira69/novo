@@ -58,7 +58,7 @@
     text-transform: uppercase;
   }
   .lista-menu__titulo {
-    color: var(--laranja);
+    color: var(--azul-degrade);
     font-weight: 700;
   }
   .container__botao {
