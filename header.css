@@ -30,7 +30,7 @@
     display: block;
   }
   .cabecalho {
-    background-color: var(--branco);
+    background-color: var(--azul-degrade);
     display: flex;
     justify-content: space-between;
     align-items: center;
