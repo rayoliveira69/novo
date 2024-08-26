@@ -87,9 +87,40 @@ body {
   @import url("styles/topicos.css");
   @import url("styles/contato.css");
   @import url("styles/rodapé.css");
-     
-    
-    
+  :root {
+    --cor-de-fundo: #ebecee;
+    --branco: #ffffff;
+    --laranja: #f3d8a2;
+    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+    --azul: #002f52;
+    --fonte-secundario: "Josefin Sans";
+  }
+  @media screen and (min-width: 1024px) {
+    .container__titulo,
+    .container__titulo--negrito {
+      font-family: var(--fonte-secundario);
+      font-size: 30px;
+    }
+  
+    .container__titulo {
+      font-weight: 400;
+    }
+  
+    .container__titulo--negrito {
+      font-weight: 700;
+    }
+  }
+  :root {
+    --cor-de-fundo: #ebecee;
+    --branco: #ffffff;
+    --laranja: #f5dca9;
+    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #b4d0e4 165.37%);
+    --fonte-principal: "Poppins";
+    --azul: #002f52;
+    --fonte-secundario: "Josefin Sans";
+    --preto: #000000;
+  }
 
 
   
